@@ -31,7 +31,7 @@ Python + Flask + HTML/CSS — *Windows Edition*
 ## 🧪 Developer / Clone dari GitHub
 
 ```cmd
-git clone https://github.com/username/repo.git
+git clone https://github.com/krisnaxyoga/soundcloud-dwnload.git
 cd soundcloud-downloader
 python -m venv venv
 venv\Scripts\activate
