@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SoundCloud Playlist Downloader</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>SoundCloud Playlist Downloader</h1>
+      <form action="/download" method="post">
+        <input
+          type="text"
+          name="url"
+          placeholder="Masukkan URL playlist SoundCloud"
+          required
+        />
+        <button type="submit">Unduh Playlist</button>
+      </form>
+    </div>
+  </body>
+</html>
